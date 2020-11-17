@@ -1,6 +1,6 @@
 import React, { createContext, useMemo, useState } from 'react'
-import { dark } from '../../constants/themes/dark'
-import { light } from '../../constants/themes/light'
+import { dark } from 'constants/themes/dark'
+import { light } from 'constants/themes/light'
 import { DefaultTheme } from 'styled-components'
 
 export interface ThemeControlProps {
